@@ -21,4 +21,4 @@ jobs:
           aws-region: us-east-1 
       
       - name: Terraform plan 
-        run: terrafomr plan 
+        run: terraform plan 
