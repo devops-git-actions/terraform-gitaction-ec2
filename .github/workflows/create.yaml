@@ -10,5 +10,5 @@ jobs:
       - name: setup terraform 
         uses: hashicorp/setup-terraform@v3 
       
-      - name: run init 
-        uses: terraform init 
+      - name: Terraform Init 
+        run: terraform init 
